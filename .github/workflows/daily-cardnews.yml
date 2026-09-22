@@ -33,6 +33,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          ASSETS_REPO_TOKEN: ${{ secrets.ASSETS_REPO_TOKEN }}
         run: python render.py --channel ${{ matrix.channel }}
 
       - name: Upload output as artifact
@@ -42,11 +43,11 @@ jobs:
           path: output/${{ matrix.channel }}/
           retention-days: 14
 
-      - name: Commit updated seen-articles state
+      - name: Commit updated state and pending record
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add state/
-          git diff --cached --quiet || git commit -m "chore: update ${{ matrix.channel }} seen-articles state [skip ci]"
+          git add state/ pending/
+          git diff --cached --quiet || git commit -m "chore: render ${{ matrix.channel }} + update state [skip ci]"
           git pull --rebase origin master
           git push

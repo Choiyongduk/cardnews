@@ -40,6 +40,30 @@ def _call(method: str, files: dict | None = None, **params) -> dict:
     return body["result"]
 
 
+def notify(text: str) -> None:
+    """단순 텍스트 알림을 보냅니다 (게시 성공/실패 등)."""
+    _call("sendMessage", chat_id=_chat_id(), text=text)
+
+
+def create_pending(slug: str, date: str, image_urls: list[str], caption: str) -> None:
+    """렌더링 직후 승인 대기 레코드를 만듭니다. publish_instagram.py가 나중에 이 파일을 읽어 게시합니다."""
+    out_path = ROOT / "pending" / slug / f"{date}.json"
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(
+        json.dumps(
+            {
+                "status": "awaiting_approval",
+                "image_urls": image_urls,
+                "caption": caption,
+                "rendered_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+            },
+            ensure_ascii=False,
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+
+
 def send_preview(cfg: dict, pngs: list[Path], caption: str, slug: str, date: str) -> None:
     """카드뉴스 PNG를 앨범으로 보내고, 승인 버튼이 달린 안내 메시지를 보냅니다."""
     chat_id = _chat_id()
@@ -91,16 +115,13 @@ def poll_and_record() -> list[dict]:
             continue
         status = "approved" if action == "approve" else "skipped"
 
+        # render.py가 렌더링 직후 만들어둔 레코드(이미지 URL·캡션 포함)를 그대로 두고 상태만 갱신합니다.
         out_path = ROOT / "pending" / slug / f"{date}.json"
         out_path.parent.mkdir(parents=True, exist_ok=True)
-        out_path.write_text(
-            json.dumps(
-                {"status": status, "decided_at": dt.datetime.now(dt.timezone.utc).isoformat()},
-                ensure_ascii=False,
-                indent=2,
-            ),
-            encoding="utf-8",
-        )
+        existing = json.loads(out_path.read_text(encoding="utf-8")) if out_path.exists() else {}
+        existing["status"] = status
+        existing["decided_at"] = dt.datetime.now(dt.timezone.utc).isoformat()
+        out_path.write_text(json.dumps(existing, ensure_ascii=False, indent=2), encoding="utf-8")
         decided.append({"slug": slug, "date": date, "status": status})
 
         # 콜백 응답에는 유효시간이 있어 폴링 주기(5분)보다 먼저 만료될 수 있습니다.

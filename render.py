@@ -55,6 +55,16 @@ def main() -> int:
     print(f"  - {(out_dir / 'caption.txt').relative_to(ROOT)}")
 
     try:
+        from engine import assets
+        from engine.telegram import create_pending
+
+        image_urls = assets.upload_images(pngs, cfg["slug"], data["date"])
+        create_pending(cfg["slug"], data["date"], image_urls, caption)
+        print("  이미지 공개 업로드 + 승인 대기 레코드 생성 완료")
+    except ValueError as e:
+        print(f"  ! 이미지 업로드 건너뜀: {e}")
+
+    try:
         from engine.telegram import send_preview
 
         send_preview(cfg, pngs, caption, cfg["slug"], data["date"])

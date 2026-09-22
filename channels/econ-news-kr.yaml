@@ -38,7 +38,10 @@ hashtags:
   - 투자정보
   - 오늘의경제
 
-# 4단계 이후 사용 예정
+# 6단계: Instagram Graph API 자동 게시
+# business_id_env/token_env는 GitHub Secrets(및 로컬 .env)에 등록해둔 환경변수 이름입니다.
+instagram:
+  business_id_env: ECON_NEWS_KR_IG_BUSINESS_ID
+  token_env: ECON_NEWS_KR_IG_TOKEN
+
 # schedule: "0 7 * * *"
-# approval: telegram
-# instagram_token_env: ECON_NEWS_KR_IG_TOKEN
