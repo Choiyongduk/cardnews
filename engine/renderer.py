@@ -1,12 +1,14 @@
 """HTML 템플릿 → PNG 렌더링 (Jinja2 + Playwright)."""
 from __future__ import annotations
 
+import datetime as dt
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from playwright.sync_api import sync_playwright
 
 from .config import ROOT
+from .theme import pick_palette
 
 # 넘치는 텍스트를 단계적으로 줄이는 스크립트.
 # data-fit="최소px" 속성이 붙은 요소를 대상으로, 부모(.fit-box)를 넘치지 않을 때까지 축소합니다.
@@ -54,6 +56,7 @@ class Renderer:
             "total": total,
             "css_url": (self.tpl_dir / "style.css").as_uri(),
             "font_dir": (ROOT / "assets" / "fonts").as_uri(),
+            "theme": pick_palette(dt.date.fromisoformat(data["date"])),
         }
         pages = [("01_cover", self.env.get_template("cover.html").render(page=1, **common))]
         for i, it in enumerate(items, 1):

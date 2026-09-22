@@ -47,11 +47,21 @@ def main() -> int:
 
     print(f"[{cfg['name']}] 렌더링 중 → {out_dir}")
     pngs = Renderer(cfg).render(data, items, out_dir)
-    (out_dir / "caption.txt").write_text(build_caption(data, cfg, items), encoding="utf-8")
+    caption = build_caption(data, cfg, items)
+    (out_dir / "caption.txt").write_text(caption, encoding="utf-8")
 
     for p in pngs:
         print(f"  - {p.relative_to(ROOT)}")
     print(f"  - {(out_dir / 'caption.txt').relative_to(ROOT)}")
+
+    try:
+        from engine.telegram import send_preview
+
+        send_preview(cfg, pngs, caption, cfg["slug"], data["date"])
+        print("  텔레그램 미리보기 전송 완료")
+    except ValueError as e:
+        print(f"  ! 텔레그램 미리보기 건너뜀: {e}")
+
     print("완료")
     return 0
 

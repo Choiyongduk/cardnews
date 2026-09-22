@@ -75,7 +75,7 @@ class RssSource(Source):
 
     def load(self) -> dict:
         from . import rss
-        from .summarize import generate
+        from .summarize import filter_relevant, generate
 
         feeds = self.cfg.get("feeds") or []
         if not feeds:
@@ -83,10 +83,19 @@ class RssSource(Source):
 
         slug = self.cfg.get("slug", "default")
         need = self.cfg.get("cards", 4)
+        topic = self.cfg.get("topic", "뉴스")
 
         candidates = rss.fetch_entries(feeds)
         already_seen = set(rss.load_seen(slug))
         candidates = [c for c in candidates if c["url"] not in already_seen]
+
+        # 본문을 다 긁기 전에 제목만으로 채널 주제와 관련 없는 기사를 먼저 걸러냅니다
+        # (예: econ-news-kr에 해외發 기사가 섞여 들어오는 것 방지).
+        pool = candidates[:30]
+        if pool:
+            order = filter_relevant([c["title"] for c in pool], topic, need * 3)
+            if order:
+                candidates = [pool[i] for i in order] + candidates[len(pool):]
 
         articles: list[dict] = []
         used_urls: list[str] = []

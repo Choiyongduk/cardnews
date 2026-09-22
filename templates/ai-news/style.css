@@ -143,6 +143,7 @@ html, body {
 .fit-box.accent-3 .why .label { color: var(--yellow); }
 .news .why p { font-size: var(--fs-why); font-weight: 600; line-height: 1.45; color: var(--paper); }
 .news .source { margin-top: 28px; font-size: 24px; color: var(--muted); font-weight: 600; }
+.news .source-url { display: inline-block; margin-top: 4px; font-size: 20px; font-weight: 500; color: var(--muted); }
 
 /* ---------- 마무리: 바이올렛 풀컬러 ---------- */
 .outro { background: var(--violet); color: var(--paper); }

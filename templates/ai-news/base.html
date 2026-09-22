@@ -3,6 +3,13 @@
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" href="{{ css_url }}">
+<style>
+  :root {
+    --yellow: {{ theme.yellow }};
+    --pink: {{ theme.pink }};
+    --violet: {{ theme.violet }};
+  }
+</style>
 </head>
 <body>
 <main class="card {% block kind %}{% endblock %}">
