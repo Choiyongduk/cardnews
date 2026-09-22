@@ -1,0 +1,122 @@
+/* ai-news 테마: 색상·크기는 :root 변수만 바꾸면 전체에 반영됩니다. */
+@font-face { font-family: "Pretendard"; font-weight: 400; src: url("../../assets/fonts/Pretendard-Regular.woff2") format("woff2"); }
+@font-face { font-family: "Pretendard"; font-weight: 500; src: url("../../assets/fonts/Pretendard-Medium.woff2") format("woff2"); }
+@font-face { font-family: "Pretendard"; font-weight: 600; src: url("../../assets/fonts/Pretendard-SemiBold.woff2") format("woff2"); }
+@font-face { font-family: "Pretendard"; font-weight: 700; src: url("../../assets/fonts/Pretendard-Bold.woff2") format("woff2"); }
+@font-face { font-family: "Pretendard"; font-weight: 800; src: url("../../assets/fonts/Pretendard-ExtraBold.woff2") format("woff2"); }
+
+:root {
+  --bg: #0E1A33;          /* 다크 네이비 */
+  --bg-deep: #091226;
+  --panel: #16264A;
+  --ink: #F2F5FA;         /* 본문 */
+  --muted: #93A1BD;       /* 보조 텍스트 */
+  --line: rgba(147, 161, 189, 0.25);
+  --accent: #FFB23F;      /* 포인트 컬러 1개 (시그널 앰버) */
+
+  --pad-x: 88px;
+  --pad-top: 96px;
+  --pad-bottom: 84px;
+
+  --fs-headline: 92px;
+  --fs-title: 68px;
+  --fs-body: 38px;
+  --fs-why: 34px;
+  --fs-meta: 26px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  width: 1080px; height: 1350px; overflow: hidden;
+  font-family: "Pretendard", "Malgun Gothic", sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+  word-break: keep-all;              /* 한글 단어 단위 줄바꿈 */
+  overflow-wrap: anywhere;
+  -webkit-font-smoothing: antialiased;
+}
+
+.card {
+  position: relative; width: 100%; height: 100%;
+  display: flex; flex-direction: column;
+  padding: var(--pad-top) var(--pad-x) var(--pad-bottom);
+  background: linear-gradient(180deg, var(--bg) 0%, var(--bg-deep) 100%);
+}
+
+/* 좌측 시그널 바: 채널의 시각적 서명 */
+.card::before {
+  content: ""; position: absolute; left: 0; top: var(--pad-top);
+  width: 14px; height: 120px; background: var(--accent);
+}
+
+.topbar {
+  display: flex; justify-content: space-between; align-items: baseline;
+  font-size: var(--fs-meta); color: var(--muted); font-weight: 500;
+  padding-bottom: 28px; border-bottom: 1px solid var(--line);
+}
+.topbar .channel { color: var(--ink); font-weight: 700; }
+
+.footer {
+  display: flex; justify-content: space-between; align-items: center;
+  font-size: var(--fs-meta); color: var(--muted); font-weight: 500;
+  padding-top: 28px; border-top: 1px solid var(--line);
+}
+.footer .page b { color: var(--ink); font-weight: 700; }
+
+.fit-box { flex: 1; min-height: 0; overflow: hidden; display: flex; flex-direction: column; padding-bottom: 40px; }
+
+/* ---------- 표지 ---------- */
+.cover .fit-box { justify-content: center; }
+.cover .kicker { font-size: 32px; color: var(--accent); font-weight: 700; margin-bottom: 36px; }
+.cover .headline {
+  font-size: var(--fs-headline); font-weight: 800; line-height: 1.22; letter-spacing: -0.03em;
+}
+.cover .index { margin-top: 72px; list-style: none; }
+.cover .index li {
+  display: flex; gap: 28px; align-items: baseline;
+  padding: 20px 0; border-top: 1px solid var(--line);
+  font-size: 32px; font-weight: 500; line-height: 1.35;
+}
+.cover .index li:last-child { border-bottom: 1px solid var(--line); }
+.cover .index .no { color: var(--accent); font-weight: 700; min-width: 40px; }
+
+/* ---------- 뉴스 ---------- */
+.news .fit-box { padding-top: 64px; }
+.news .tag {
+  align-self: flex-start; font-size: 26px; font-weight: 600;
+  color: var(--bg); background: var(--accent);
+  padding: 8px 18px; border-radius: 6px; margin-bottom: 32px;
+}
+.news .title {
+  font-size: var(--fs-title); font-weight: 800; line-height: 1.25; letter-spacing: -0.025em;
+  margin-bottom: 56px;
+}
+.news .summary { list-style: none; display: flex; flex-direction: column; gap: 26px; }
+.news .summary li {
+  position: relative; padding-left: 36px;
+  font-size: var(--fs-body); font-weight: 500; line-height: 1.45;
+}
+.news .summary li::before {
+  content: ""; position: absolute; left: 0; top: 0.62em;
+  width: 12px; height: 12px; border-radius: 50%; background: var(--accent);
+}
+.news .why {
+  margin-top: auto; background: var(--panel); border-radius: 14px;
+  padding: 34px 38px; border-left: 8px solid var(--accent);
+}
+.news .why .label { font-size: 26px; font-weight: 700; color: var(--accent); margin-bottom: 12px; }
+.news .why p { font-size: var(--fs-why); font-weight: 600; line-height: 1.45; }
+.news .source { margin-top: 28px; font-size: 24px; color: var(--muted); }
+
+/* ---------- 마무리 ---------- */
+.outro .fit-box { justify-content: center; }
+.outro .label { font-size: 32px; color: var(--accent); font-weight: 700; margin-bottom: 32px; }
+.outro .one-liner { font-size: 64px; font-weight: 800; line-height: 1.3; letter-spacing: -0.025em; }
+.outro .cta {
+  margin-top: 96px; padding: 44px 44px; border-radius: 16px;
+  background: var(--panel); border: 1px solid var(--line);
+}
+.outro .cta h2 { font-size: 44px; font-weight: 800; margin-bottom: 16px; }
+.outro .cta p { font-size: 30px; color: var(--muted); line-height: 1.5; font-weight: 500; }
+.outro .cta .handle { margin-top: 28px; font-size: 34px; color: var(--accent); font-weight: 700; }
