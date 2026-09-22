@@ -21,7 +21,13 @@ def main() -> int:
     args = ap.parse_args()
 
     cfg = load_channel(args.channel)
-    data = get_source(cfg["source"]).load()
+    source_cfg = {
+        **cfg["source"],
+        "slug": cfg["slug"],
+        "cards": cfg.get("cards", 4),
+        "topic": cfg.get("topic", cfg["name"]),
+    }
+    data = get_source(source_cfg).load()
 
     date = dt.date.fromisoformat(args.date or data.get("date") or dt.date.today().isoformat())
     data["date"] = date.isoformat()

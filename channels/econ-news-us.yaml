@@ -1,0 +1,44 @@
+# 채널 설정: 이 파일만 복사·수정하면 새 채널(예: hssup.yaml)을 추가할 수 있습니다.
+slug: econ-news-us
+name: 오늘의 미국 경제 브리핑
+handle: "@your_econ_news_us"     # 인스타 계정명으로 교체
+template: ai-news                # templates/<template>/ 폴더를 사용 (디자인 공용)
+cards: 4                         # 뉴스 카드 수 (표지·마무리 제외)
+topic: 미국 경제 뉴스             # 요약 프롬프트에 쓰이는 채널 주제
+size:
+  width: 1080
+  height: 1350
+
+# 소스 타입: sample | claude | rss(현재) | sheet | folder
+source:
+  type: rss
+  feeds:
+    - https://www.cnbc.com/id/20910258/device/rss/rss.html        # CNBC Economy
+    - https://feeds.content.dowjones.io/public/rss/mw_topstories  # MarketWatch Top Stories
+  # model: claude-sonnet-5        # 생략 시 summarize.py의 기본값 사용
+
+  # claude 소스(고정 원문 JSON)로 되돌리려면 아래 주석을 해제하고 위 rss 설정을 주석 처리하세요.
+  # type: claude
+  # path: data/econ-us-articles.json
+
+# 텍스트 길이 기준 (초과 시 경고, 렌더링은 자동 축소로 처리)
+limits:
+  title: 30
+  summary_line: 40
+  summary_lines: 3
+
+outro:
+  cta_title: 매일 아침 미국 경제 브리핑 받아보기
+  cta_body: 팔로우하면 하루 4건, 미국 경제 핵심만 정리해 드립니다.
+
+hashtags:
+  - 경제뉴스
+  - 미국경제
+  - 미국증시
+  - 나스닥
+  - 오늘의경제
+
+# 4단계 이후 사용 예정
+# schedule: "0 7 * * *"
+# approval: telegram
+# instagram_token_env: ECON_NEWS_US_IG_TOKEN
