@@ -2,7 +2,7 @@ name: Instagram Publish
 
 on:
   schedule:
-    - cron: "*/10 * * * *"  # 10분마다 승인된 항목 확인
+    - cron: "6-59/10 * * * *"  # 10분마다(정각 6분 오프셋) 승인된 항목 확인
   workflow_dispatch:
 
 permissions:
