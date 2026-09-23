@@ -38,10 +38,10 @@ hashtags:
   - 투자정보
   - 오늘의경제
 
-# 6단계: Instagram Graph API 자동 게시
-# business_id_env/token_env는 GitHub Secrets(및 로컬 .env)에 등록해둔 환경변수 이름입니다.
+# 6단계: Instagram 자동 게시 (Buffer API 경유)
+# channel_id는 민감정보가 아니라 여기 그대로 적습니다 (engine/instagram.list_channels()로 1회 조회).
+# 인증은 공용 시크릿 BUFFER_API_KEY 하나로 처리됩니다.
 instagram:
-  business_id_env: ECON_NEWS_KR_IG_BUSINESS_ID
-  token_env: ECON_NEWS_KR_IG_TOKEN
+  channel_id: ""  # TODO: Buffer에 계정 연결 후 채널 ID로 채우기
 
 # schedule: "0 7 * * *"

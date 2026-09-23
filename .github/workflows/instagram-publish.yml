@@ -29,10 +29,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          ECON_NEWS_KR_IG_BUSINESS_ID: ${{ secrets.ECON_NEWS_KR_IG_BUSINESS_ID }}
-          ECON_NEWS_KR_IG_TOKEN: ${{ secrets.ECON_NEWS_KR_IG_TOKEN }}
-          ECON_NEWS_US_IG_BUSINESS_ID: ${{ secrets.ECON_NEWS_US_IG_BUSINESS_ID }}
-          ECON_NEWS_US_IG_TOKEN: ${{ secrets.ECON_NEWS_US_IG_TOKEN }}
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
         run: python publish_instagram.py
 
       - name: Commit publish status updates
