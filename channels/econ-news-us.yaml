@@ -1,10 +1,11 @@
 # 채널 설정: 이 파일만 복사·수정하면 새 채널(예: hssup.yaml)을 추가할 수 있습니다.
 slug: econ-news-us
 name: 오늘의 미국 경제 브리핑
-handle: "@your_econ_news_us"     # 인스타 계정명으로 교체
+handle: "@economy_dailynews"     # econ-news-kr과 같은 계정에 함께 게시 (팔레트로 구분)
 template: ai-news                # templates/<template>/ 폴더를 사용 (디자인 공용)
 cards: 4                         # 뉴스 카드 수 (표지·마무리 제외)
-topic: 미국 경제 뉴스             # 요약 프롬프트에 쓰이는 채널 주제
+palette: sky                     # 고정 팔레트 (국내 채널과 같은 계정에 섞여 올라가므로 색으로 구분)
+topic: 미국 거시경제 뉴스(금리, 물가, 무역, 고용, 연준 정책, 증시 등 경제지표·정책 중심, 개별 기업 마케팅·홍보성 소식 제외) # 요약 프롬프트에 쓰이는 채널 주제
 size:
   width: 1080
   height: 1350
@@ -13,8 +14,9 @@ size:
 source:
   type: rss
   feeds:
-    - https://www.cnbc.com/id/20910258/device/rss/rss.html        # CNBC Economy
-    - https://feeds.content.dowjones.io/public/rss/mw_topstories  # MarketWatch Top Stories
+    - https://rss.nytimes.com/services/xml/rss/nyt/Business.xml    # NYT Business
+    - https://rss.nytimes.com/services/xml/rss/nyt/Economy.xml     # NYT Economy
+    - https://moxie.foxbusiness.com/google-publisher/economy.xml   # Fox Business Economy
   # model: claude-sonnet-5        # 생략 시 summarize.py의 기본값 사용
 
   # claude 소스(고정 원문 JSON)로 되돌리려면 아래 주석을 해제하고 위 rss 설정을 주석 처리하세요.
@@ -42,6 +44,6 @@ hashtags:
 # channel_id는 민감정보가 아니라 여기 그대로 적습니다 (engine/instagram.list_channels()로 1회 조회).
 # 인증은 공용 시크릿 BUFFER_API_KEY 하나로 처리됩니다.
 instagram:
-  channel_id: ""  # TODO: Buffer에 계정 연결 후 채널 ID로 채우기
+  channel_id: "6ab3280dea19ca0bdebe9ec4"  # economy_dailynews (econ-news-kr과 동일 계정)
 
 # schedule: "0 7 * * *"
