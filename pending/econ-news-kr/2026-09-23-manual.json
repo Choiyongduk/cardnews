@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "published",
   "image_urls": [
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-23-manual/01_cover.png",
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-23-manual/02_news.png",
@@ -10,5 +10,7 @@
   ],
   "caption": "오늘의 국내 경제 브리핑 | 2026-09-23\n\n성장률 전망 상향과 인구 반등 신호 속 대규모 인프라, 데이터센터 투자가 이어지고 있습니다\n\n1. 경제협력개발기구, 한국 성장률 3.7퍼센트로 대폭 상향\n   출처: 한국경제 https://www.hankyung.com/article/2026092340921\n2. 7월 출생아 2만4000여명 25개월 연속 증가\n   출처: 한국경제 https://www.hankyung.com/article/2026092340591\n3. GTX씨 노선 사업비 3조8000억원 조달 완료\n   출처: 한국경제 https://www.hankyung.com/article/2026092339311\n4. 우리금융, 포항 인공지능 데이터센터에 6000억원 지원\n   출처: 한국경제 https://www.hankyung.com/article/2026092340361\n\n#경제뉴스 #국내경제 #국내증시 #투자정보 #오늘의경제\n",
   "rendered_at": "2026-09-23T09:18:47.414697+00:00",
-  "decided_at": "2026-09-23T09:41:02.761310+00:00"
+  "decided_at": "2026-09-23T09:41:02.761310+00:00",
+  "published_at": "2026-09-23T09:41:49.053742+00:00",
+  "buffer_post_id": "6ab39ed230de28eb81eade6d"
 }
