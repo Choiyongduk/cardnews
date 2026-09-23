@@ -138,9 +138,21 @@ html, body {
 }
 .fit-box.accent-2 .why { border-color: var(--violet); }
 .fit-box.accent-3 .why { border-color: var(--yellow); }
-.news .why .label { font-size: 26px; font-weight: 800; color: var(--pink); margin-bottom: 14px; }
+.news .why .label {
+  display: flex; align-items: center; gap: 10px;
+  font-size: 26px; font-weight: 800; letter-spacing: 0.04em;
+  color: var(--pink); margin-bottom: 14px;
+}
 .fit-box.accent-2 .why .label { color: var(--violet); }
 .fit-box.accent-3 .why .label { color: var(--yellow); }
+.news .why .check {
+  display: inline-flex; align-items: center; justify-content: center; flex: none;
+  width: 30px; height: 30px; border-radius: 50%;
+  font-size: 18px; font-weight: 800; color: var(--paper);
+  background: var(--pink); border: 2px solid var(--ink);
+}
+.fit-box.accent-2 .why .check { background: var(--violet); }
+.fit-box.accent-3 .why .check { background: var(--yellow); color: var(--ink); }
 .news .why p { font-size: var(--fs-why); font-weight: 600; line-height: 1.45; color: var(--paper); }
 .news .source { margin-top: 28px; font-size: 24px; color: var(--muted); font-weight: 600; }
 .news .source-url { display: inline-block; margin-top: 4px; font-size: 20px; font-weight: 500; color: var(--muted); }
