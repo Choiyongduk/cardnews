@@ -1,5 +1,5 @@
 {
-  "status": "awaiting_approval",
+  "status": "published",
   "image_urls": [
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-23/01_cover.png",
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-23/02_news.png",
@@ -9,5 +9,8 @@
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-23/06_outro.png"
   ],
   "caption": "오늘의 국내 경제 브리핑 | 2026-09-23\n\n에너지 정책부터 인사, 국제 재건 기금까지 다양한 이슈가 얽힌 하루입니다.\n\n1. 원전 계속운전 20년 연장, 부처간 엇박자\n   출처: 한국경제 https://www.hankyung.com/article/202609232987i\n2. 이소영 중기부 장관, 최연소 취임 첫 행보\n   출처: 한국경제 https://www.hankyung.com/article/202609232729i\n3. 미국, 중동 에너지망 복구에 50억달러 지원안\n   출처: 한국경제 https://www.hankyung.com/article/202609232878i\n4. 한국씨티은행, 6년 만에 행장 교체\n   출처: 한국경제 https://www.hankyung.com/article/202609232790i\n\n#경제뉴스 #국내경제 #국내증시 #투자정보 #오늘의경제\n",
-  "rendered_at": "2026-09-23T01:52:36.779414+00:00"
+  "rendered_at": "2026-09-23T02:00:48.716123+00:00",
+  "decided_at": "2026-09-23T02:03:32.716475+00:00",
+  "published_at": "2026-09-23T02:05:17.950515+00:00",
+  "buffer_post_id": "6ab333d32aa0e20bb46f8817"
 }

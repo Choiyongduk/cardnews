@@ -61,6 +61,7 @@ def publish_carousel(channel_id: str, image_urls: list[str], caption: str) -> st
             "schedulingType": "automatic",
             "mode": "shareNow",
             "assets": [{"image": {"url": url}} for url in image_urls[:10]],
+            "metadata": {"instagram": {"type": "post", "shouldShareToFeed": True}},
         }
     }
     result = _graphql(query, variables)["createPost"]
