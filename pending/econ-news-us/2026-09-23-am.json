@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "published",
   "image_urls": [
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-us/2026-09-23-am/01_cover.png",
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-us/2026-09-23-am/02_news.png",
@@ -10,5 +10,7 @@
   ],
   "caption": "오늘의 미국 경제 브리핑 | 2026-09-23\n\n국채금리 상승과 주택시장 둔화 속, 주정부간 경쟁과 대중국 공급망 압박 논란이 미국 경제 곳곳에서 이어지고 있습니다.\n\n1. 플로리다 상공회의소, 일리노이 주지사 저격 광고\n   출처: Fox Business https://www.foxbusiness.com/economy/florida-chamber-slaps-jb-pritzker-runner-up-economic-developer-of-the-year-award-chicago-billboards\n2. 미국 재무부, 장기채 최대 60억달러 매입\n   출처: Fox Business https://www.foxbusiness.com/economy/treasury-buy-back-up-6b-longer-term-debt-bond-yields-hit-highest-level-since-2023\n3. 교통장관, 포드에 중국 의존 경고 서한\n   출처: Fox Business https://www.foxbusiness.com/economy/duffy-puts-ford-notice-over-china-ties-warns-security-concerns\n4. 미국 주요 도시 집값, 8월에도 하락세 지속\n   출처: Fox Business https://www.foxbusiness.com/economy/us-cities-where-home-prices-falling-fastest\n\n#경제뉴스 #미국경제 #미국증시 #나스닥 #오늘의경제\n",
   "rendered_at": "2026-09-23T22:09:53.577898+00:00",
-  "decided_at": "2026-09-23T22:23:20.336064+00:00"
+  "decided_at": "2026-09-23T22:23:20.336064+00:00",
+  "published_at": "2026-09-23T22:24:42.211977+00:00",
+  "buffer_post_id": "6ab4519f74e2f42b2e9115d3"
 }
