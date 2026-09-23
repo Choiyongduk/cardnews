@@ -29,13 +29,20 @@ def _clean_hanja(text: str) -> str:
 
 
 def _clean_hanja_in(data: dict) -> dict:
-    data["headline"] = _clean_hanja(data.get("headline", ""))
+    data["headline"] = _clean_middot(_clean_hanja(data.get("headline", "")))
     data["one_liner"] = _clean_hanja(data.get("one_liner", ""))
     for it in data.get("items", []):
-        it["title"] = _clean_hanja(it.get("title", ""))
+        it["title"] = _clean_middot(_clean_hanja(it.get("title", "")))
         it["summary"] = [_clean_hanja(line) for line in it.get("summary", [])]
         it["why"] = _clean_hanja(it.get("why", ""))
     return data
+
+
+def _clean_middot(text: str) -> str:
+    """headline/title에 프롬프트로도 가끔 새는 가운뎃점(·)에 대한 코드 레벨 안전망."""
+    if not isinstance(text, str):
+        return text
+    return text.replace("·", " ").replace("  ", " ").strip()
 
 def _system_prompt(topic: str) -> str:
     return f"""당신은 {topic} 카드뉴스 편집자입니다. 아래 원칙을 반드시 지키세요.
@@ -45,8 +52,8 @@ def _system_prompt(topic: str) -> str:
 - 과장하거나 클릭베이트성 표현을 쓰지 마세요.
 - 존댓말, 간결한 뉴스체로 작성하세요.
 - 해외 기사와 국내 기사를 함께 다루더라도 문체와 톤을 통일하세요.
-- 한자를 단 한 글자도 쓰지 마세요. "發"를 접미사로 붙이는 표현("에너지發", "중앙그룹發" 등)을 절대 쓰지 말고 반드시 한글 "발"로 적으세요 (예: "에너지발", "중앙그룹발"). 국가명도 한자 약칭(美, 中, 日, 英 등) 대신 한글로 쓰세요 (예: "美·이란" 금지 → "미국·이란"). 고유명사를 제외한 모든 단어는 한글로만 작성하세요.
-- headline과 title에 "A·B·C 변화"처럼 단어를 가운뎃점(·)으로 나열해 뭉뚱그리는 상투적인 AI 문구를 쓰지 마세요. 기사에서 가장 핵심적인 사실 하나를 구체적인 문장으로 표현하세요."""
+- 한자를 단 한 글자도 쓰지 마세요. "發"를 접미사로 붙이는 표현("에너지發", "중앙그룹發" 등)을 절대 쓰지 말고 반드시 한글 "발"로 적으세요 (예: "에너지발", "중앙그룹발"). 국가명도 한자 약칭(美, 中, 日, 英 등) 대신 한글로 쓰세요 (예: "美 이란 협상" 금지 → "미국 이란 협상"). 고유명사를 제외한 모든 단어는 한글로만 작성하세요.
+- headline과 title에는 가운뎃점(·)을 절대 쓰지 마세요. "신약·AI커머스"처럼 두 단어만 연결하는 경우도 금지입니다. 여러 소재를 다뤄야 하면 쉼표나 자연스러운 문장으로 풀어 쓰거나, 가장 핵심적인 사실 하나만 골라 구체적인 문장으로 표현하세요."""
 
 
 DEFAULT_TOPIC = "뉴스"
