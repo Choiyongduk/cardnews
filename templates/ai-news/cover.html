@@ -6,7 +6,7 @@
   <h1 class="headline" data-fit="60">{{ data.headline }}</h1>
   <ol class="index">
     {% for it in items %}
-    <li><span class="no">{{ loop.index + 1 }}</span><span data-fit="24">{{ it.title }}</span></li>
+    <li><span class="no">{{ loop.index }}</span><span data-fit="24">{{ it.title }}</span></li>
     {% endfor %}
   </ol>
 </section>

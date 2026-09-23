@@ -1,4 +1,13 @@
 {
-  "status": "skipped",
-  "decided_at": "2026-09-22T19:12:37.597031+00:00"
+  "status": "awaiting_approval",
+  "image_urls": [
+    "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-23/01_cover.png",
+    "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-23/02_news.png",
+    "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-23/03_news.png",
+    "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-23/04_news.png",
+    "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-23/05_news.png",
+    "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-23/06_outro.png"
+  ],
+  "caption": "오늘의 국내 경제 브리핑 | 2026-09-23\n\n국내는 금융지주 인사 투명성 압박과 지역 상생 행보, 해외는 신약 개발과 AI쇼핑을 둘러싼 경쟁이 이어졌습니다.\n\n1. 이찬진 금감원장, 은행장 인사 앞두고 재차 경고\n   출처: 한국경제 https://www.hankyung.com/article/202609222063i\n2. 노보노디스크, 후속 신약 로드맵에도 주가 급락\n   출처: 한국경제 https://www.hankyung.com/article/202609232584i\n3. AI 쇼핑 대행 두고 쇼피파이는 열고 아마존은 닫아\n   출처: 한국경제 https://www.hankyung.com/article/202609221263i\n4. 농협은행, 전남 반도체 인재에 장학금 3억원\n   출처: 한국경제 https://www.hankyung.com/article/2026092217481\n\n#경제뉴스 #국내경제 #국내증시 #투자정보 #오늘의경제\n",
+  "rendered_at": "2026-09-23T01:27:01.293391+00:00"
 }

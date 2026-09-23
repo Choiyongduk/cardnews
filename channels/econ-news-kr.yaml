@@ -42,6 +42,6 @@ hashtags:
 # channel_id는 민감정보가 아니라 여기 그대로 적습니다 (engine/instagram.list_channels()로 1회 조회).
 # 인증은 공용 시크릿 BUFFER_API_KEY 하나로 처리됩니다.
 instagram:
-  channel_id: ""  # TODO: Buffer에 계정 연결 후 채널 ID로 채우기
+  channel_id: "6ab3280dea19ca0bdebe9ec4"  # economy_dailynews
 
 # schedule: "0 7 * * *"

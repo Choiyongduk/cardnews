@@ -31,10 +31,18 @@ def upload_images(pngs: list[Path], slug: str, date: str) -> list[str]:
     for p in pngs:
         repo_path = f"{slug}/{date}/{p.name}"
         content_b64 = base64.b64encode(p.read_bytes()).decode()
+        payload = {"message": f"add {repo_path}", "content": content_b64}
+
+        existing = requests.get(
+            f"{API}/repos/{ASSETS_REPO}/contents/{repo_path}", headers=headers, timeout=30
+        )
+        if existing.status_code == 200:
+            payload["sha"] = existing.json()["sha"]  # 같은 경로에 이미 파일이 있으면(재렌더링) 덮어쓰기 위해 필요
+
         resp = requests.put(
             f"{API}/repos/{ASSETS_REPO}/contents/{repo_path}",
             headers=headers,
-            json={"message": f"add {repo_path}", "content": content_b64},
+            json=payload,
             timeout=30,
         )
         if resp.status_code not in (200, 201):
