@@ -14,9 +14,8 @@ size:
 source:
   type: rss
   feeds:
-    - https://rss.nytimes.com/services/xml/rss/nyt/Business.xml    # NYT Business
-    - https://rss.nytimes.com/services/xml/rss/nyt/Economy.xml     # NYT Economy
     - https://moxie.foxbusiness.com/google-publisher/economy.xml   # Fox Business Economy
+    - https://finance.yahoo.com/news/rssindex                      # Yahoo Finance (NYT는 경제 콘텐츠 빈약 + 편향 우려로 제외)
   # model: claude-sonnet-5        # 생략 시 summarize.py의 기본값 사용
 
   # claude 소스(고정 원문 JSON)로 되돌리려면 아래 주석을 해제하고 위 rss 설정을 주석 처리하세요.
