@@ -1,5 +1,5 @@
 {
-  "status": "awaiting_approval",
+  "status": "approved",
   "image_urls": [
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-us/2026-09-24-pm/01_cover.png",
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-us/2026-09-24-pm/02_news.png",
@@ -9,5 +9,6 @@
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-us/2026-09-24-pm/06_outro.png"
   ],
   "caption": "오늘의 미국 경제 브리핑 | 2026-09-24\n\n미중 정상회담과 이란 관계 개선 기대 속 금값과 은값은 관망세, 모기지 금리는 하락하고 예금금리는 연준 금리 인상 여파로 상승세를 이어갔습니다.\n\n1. 30년 고정 모기지 금리 6.92%로 하락\n   출처: Yahoo Finance https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-wednesday-september-23-2026-fixed-rates-find-more-room-to-fall-100000875.html\n2. 은 가격, 미중 정상회담 앞두고 상승분 반납\n   출처: Yahoo Finance https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-wednesday-september-23-2026-silver-prices-settle-ahead-of-key-us-china-summit-111845856.html\n3. 금값, 4300달러대에서 미중 이란 정세 주시\n   출처: Yahoo Finance https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-wednesday-september-23-2026-gold-holds-as-investors-weigh-china-iran-relations-110649042.html\n4. 예금 금리 상승세, 최고 4.40% CD 등장\n   출처: Yahoo Finance https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-wednesday-september-23-2026-earn-up-to-440-apy-with-happen-bank-100000312.html\n\n#경제뉴스 #미국경제 #미국증시 #나스닥 #오늘의경제\n",
-  "rendered_at": "2026-09-24T09:15:49.025698+00:00"
+  "rendered_at": "2026-09-24T09:15:49.025698+00:00",
+  "decided_at": "2026-09-24T10:20:26.795714+00:00"
 }
