@@ -1,5 +1,5 @@
 {
-  "status": "published",
+  "status": "awaiting_approval",
   "image_urls": [
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-24-am/01_cover.png",
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-24-am/02_news.png",
@@ -8,9 +8,6 @@
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-24-am/05_news.png",
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-24-am/06_outro.png"
   ],
-  "caption": "오늘의 국내 경제 브리핑 | 2026-09-24\n\n에너지, 관세, 반도체발 원가 압박이 세계 곳곳의 공급망과 물가를 흔들고 있습니다.\n\n1. 미국 경유 수출 중단 검토에 업계 반발\n   출처: 한국경제 https://www.hankyung.com/article/202609234483i\n2. 인도, 삼성 LG의 올레드 부품 관세 조사\n   출처: 한국경제 https://www.hankyung.com/article/202609234426i\n3. 반도체값 상승, 국내 부품사에 단가 인하 압박으로\n   출처: 한국경제 https://www.hankyung.com/article/2026092340241\n4. 엘지전자 에스케이엔무브, 데이터센터 냉각기술 공동개발\n   출처: 한국경제 https://www.hankyung.com/article/2026092340271\n\n#경제뉴스 #국내경제 #국내증시 #투자정보 #오늘의경제\n",
-  "rendered_at": "2026-09-24T00:24:26.093364+00:00",
-  "decided_at": "2026-09-24T00:41:15.063420+00:00",
-  "published_at": "2026-09-24T00:42:26.853939+00:00",
-  "buffer_post_id": "6ab471e8ccbef1e0a53fc07b"
+  "caption": "오늘의 국내 경제 브리핑 | 2026-09-24\n\n명절 연휴에도 성과급 지급 준비, 총수 해외 행보, 목돈 마련 전략, 미중 자금 교류까지 경제 이슈가 이어졌습니다.\n\n1. 삼성 반도체, 추석 이후 초대형 성과급 윤곽\n   출처: 한국경제 https://www.hankyung.com/article/2026092449257\n2. 추석 연휴에도 대기업 총수들 해외로\n   출처: 한국경제 https://www.hankyung.com/article/2026092447057\n3. 추석 용돈, 고금리 자녀적금으로 굴리기\n   출처: 한국경제 https://www.hankyung.com/article/202609232231i\n4. 미중, 패권경쟁 속에서도 서로 기술주 사들여\n   출처: 한국경제 https://www.hankyung.com/article/202609234365i\n\n#경제뉴스 #국내경제 #국내증시 #투자정보 #오늘의경제\n",
+  "rendered_at": "2026-09-24T22:08:15.428539+00:00"
 }
