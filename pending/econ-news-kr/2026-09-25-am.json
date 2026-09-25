@@ -1,5 +1,5 @@
 {
-  "status": "awaiting_approval",
+  "status": "approved",
   "image_urls": [
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-25-am/01_cover.png",
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-25-am/02_news.png",
@@ -9,5 +9,6 @@
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-25-am/06_outro.png"
   ],
   "caption": "오늘의 국내 경제 브리핑 | 2026-09-25\n\n물가지표 변화와 통화정책 불확실성 속 국채금리 상승이 세계 금융시장의 새로운 변수로 떠올랐습니다.\n\n1. 미국 물가지수 개편, 금리 경로 흔드나\n   출처: 한국경제 https://www.hankyung.com/article/202609256104i\n2. 일본 금리 인상에도 엔캐리 청산 위험 여전\n   출처: 한국경제 https://www.hankyung.com/article/202609232798i\n3. 미국 국채금리 5%대, 저금리 시대 종료 신호\n   출처: 한국경제 https://www.hankyung.com/article/202609266127i\n4. AP위성, 유럽사와 손잡고 위성 사업 확대\n   출처: 한국경제 https://www.hankyung.com/article/202609233758i\n\n#경제뉴스 #국내경제 #국내증시 #투자정보 #오늘의경제\n",
-  "rendered_at": "2026-09-25T22:08:20.128606+00:00"
+  "rendered_at": "2026-09-25T22:08:20.128606+00:00",
+  "decided_at": "2026-09-25T22:13:17.081150+00:00"
 }
