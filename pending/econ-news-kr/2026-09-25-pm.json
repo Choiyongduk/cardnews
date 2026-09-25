@@ -1,5 +1,5 @@
 {
-  "status": "published",
+  "status": "awaiting_approval",
   "image_urls": [
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-25-pm/01_cover.png",
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-25-pm/02_news.png",
@@ -8,9 +8,6 @@
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-25-pm/05_news.png",
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-25-pm/06_outro.png"
   ],
-  "caption": "오늘의 국내 경제 브리핑 | 2026-09-25\n\n아프리카 개발협력, 미국 에너지 가격, 휴머노이드 부품, 중형 SUV 시장까지 국내외 산업 경쟁이 곳곳에서 치열해지고 있습니다.\n\n1. 한국, 아프리카서 중국과 개발협력 경쟁\n   출처: 한국경제 https://www.hankyung.com/article/202609255748i\n2. 세계 최대 산유국 미국도 에너지 가격 못잡아\n   출처: 한국경제 https://www.hankyung.com/article/202609255671i\n3. 테슬라, 옵티머스 양산 앞두고 한국 부품망 점검\n   출처: 한국경제 https://www.hankyung.com/article/202609233829i\n4. 쏘렌토, 싼타페 텃밭에 수입차 파고들어\n   출처: 한국경제 https://www.hankyung.com/article/202609234356i\n\n#경제뉴스 #국내경제 #국내증시 #투자정보 #오늘의경제\n",
-  "rendered_at": "2026-09-25T09:14:16.083055+00:00",
-  "decided_at": "2026-09-25T11:29:15.091732+00:00",
-  "published_at": "2026-09-25T11:30:41.089880+00:00",
-  "buffer_post_id": "6ab65b568c95968bb0374b9a"
+  "caption": "오늘의 국내 경제 브리핑 | 2026-09-25\n\n중국 자금 이동과 반도체 산업 재편, 국내 전력정책까지 산업 전반의 구조적 변화가 감지되는 하루였습니다.\n\n1. 중국 64조위안 예금 만기, 은행권 자금이탈 비상\n   출처: 한국경제 https://www.hankyung.com/article/202609172297i\n2. AI용 반도체 부품 쏠림, 범용시장은 대만중국이 채워\n   출처: 한국경제 https://www.hankyung.com/article/202609233120i\n3. 일본 엘피다 파산 사례로 본 반도체 호황기 경고\n   출처: 한국경제 https://www.hankyung.com/article/2026092184316\n4. 석탄발전 조기폐지, 손실보상 없어 민간발전사 반발\n   출처: 한국경제 https://www.hankyung.com/article/202609233881i\n\n#경제뉴스 #국내경제 #국내증시 #투자정보 #오늘의경제\n",
+  "rendered_at": "2026-09-25T14:37:30.946467+00:00"
 }
