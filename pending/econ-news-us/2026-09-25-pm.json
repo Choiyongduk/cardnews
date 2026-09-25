@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "published",
   "image_urls": [
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-us/2026-09-25-pm/01_cover.png",
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-us/2026-09-25-pm/02_news.png",
@@ -10,5 +10,7 @@
   ],
   "caption": "오늘의 미국 경제 브리핑 | 2026-09-25\n\n인공지능 반도체 경쟁 구도 변화와 실물경제 기업들의 견조한 실적이 함께 확인된 하루였습니다.\n\n1. 전 인텔 최고경영자, 엔비디아 대항마 스타트업에 투자\n   출처: Yahoo Finance https://finance.yahoo.com/technology/ai/articles/pat-gelsinger-just-backed-100-042433352.html\n2. 인텔 자회사 알테라, 미국 증시 상장 추진\n   출처: Yahoo Finance https://finance.yahoo.com/markets/stocks/articles/intel-intc-could-fresh-valuation-041710849.html\n3. 오토존, 예상 웃돈 실적에 주가 상승\n   출처: Yahoo Finance https://finance.yahoo.com/markets/stocks/articles/why-autozone-stock-rallied-today-020051614.html\n4. 웨스팅하우스에어브레이크, 아프리카 철도 서비스 계약 체결\n   출처: Yahoo Finance https://finance.yahoo.com/markets/stocks/articles/westinghouse-air-brake-wab-signs-014350177.html\n\n#경제뉴스 #미국경제 #미국증시 #나스닥 #오늘의경제\n",
   "rendered_at": "2026-09-25T14:38:59.396822+00:00",
-  "decided_at": "2026-09-25T22:13:16.531777+00:00"
+  "decided_at": "2026-09-25T22:13:16.531777+00:00",
+  "published_at": "2026-09-25T22:15:00.675755+00:00",
+  "buffer_post_id": "6ab6f25adffba3cec6e65c55"
 }

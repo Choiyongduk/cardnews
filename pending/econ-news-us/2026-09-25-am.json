@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "published",
   "image_urls": [
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-us/2026-09-25-am/01_cover.png",
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-us/2026-09-25-am/02_news.png",
@@ -10,5 +10,7 @@
   ],
   "caption": "오늘의 미국 경제 브리핑 | 2026-09-25\n\n나이키 실적 기대와 우려가 교차하는 가운데, 개별 기업들의 재무 전략과 사업 확장 소식이 이어졌습니다.\n\n1. 나이키, 실적 발표 앞두고 반등 여부 시험대\n   출처: Yahoo Finance https://finance.yahoo.com/markets/stocks/articles/nike-nke-wall-street-tests-040747520.html\n2. 처칠다운스, 5억달러 대출 발행하며 만기 연장\n   출처: Yahoo Finance https://finance.yahoo.com/markets/stocks/articles/churchill-downs-chdn-prices-500-005951580.html\n3. 어댑티브 바이오, 혈액암 가이드라인 개정에 주목\n   출처: Yahoo Finance https://finance.yahoo.com/healthcare/articles/adaptive-biotechnologies-adpt-blood-cancer-002807566.html\n4. 이뮤니티바이오, 튀르키예 대통령 면담에 주가 10퍼센트 급등\n   출처: Yahoo Finance https://finance.yahoo.com/healthcare/articles/immunitybio-ibrx-meeting-turkish-president-002653592.html\n\n#경제뉴스 #미국경제 #미국증시 #나스닥 #오늘의경제\n",
   "rendered_at": "2026-09-25T22:09:40.325599+00:00",
-  "decided_at": "2026-09-25T22:13:17.627688+00:00"
+  "decided_at": "2026-09-25T22:13:17.627688+00:00",
+  "published_at": "2026-09-25T22:14:49.552455+00:00",
+  "buffer_post_id": "6ab6f24ff59168c9752c76c0"
 }
