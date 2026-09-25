@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "published",
   "image_urls": [
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-25-am/01_cover.png",
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-25-am/02_news.png",
@@ -10,5 +10,7 @@
   ],
   "caption": "오늘의 국내 경제 브리핑 | 2026-09-25\n\n금리 상승과 기후 요인이 국내 금융과 물가를 흔드는 가운데, 해외에서는 AI를 둘러싼 자금과 규제 경쟁이 뜨거워지고 있습니다.\n\n1. 금리 상승 대비, 금융권 신종자본증권 발행 확대\n   출처: 한국경제 https://www.hankyung.com/article/202609234124i\n2. 폭염발 농축산물 생산자물가 급등, 추석 밥상물가 비상\n   출처: 이투데이 https://www.etoday.co.kr/news/view/2627963\n3. AI 투자 열기 속 미국 시장의 자금과 리스크 신호\n   출처: 한국경제 https://www.hankyung.com/article/202609234485i\n4. 국내 AI, 로봇 스타트업 상용화 본격화, 유니콘 후보 부상\n   출처: 한국경제 https://www.hankyung.com/article/202609233759i\n\n#경제뉴스 #국내경제 #국내증시 #투자정보 #오늘의경제\n",
   "rendered_at": "2026-09-25T00:26:55.280834+00:00",
-  "decided_at": "2026-09-25T00:48:17.844153+00:00"
+  "decided_at": "2026-09-25T00:48:17.844153+00:00",
+  "published_at": "2026-09-25T00:50:36.292640+00:00",
+  "buffer_post_id": "6ab5c551db73444101da8b4f"
 }
