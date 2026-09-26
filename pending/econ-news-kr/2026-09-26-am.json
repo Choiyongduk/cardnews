@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "published",
   "image_urls": [
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-26-am/01_cover.png",
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-26-am/02_news.png",
@@ -10,5 +10,7 @@
   ],
   "caption": "오늘의 국내 경제 브리핑 | 2026-09-26\n\n추석 물가 부담과 유사수신 사기 주의, 부동산 세제 개편, 중금리대출 확대까지 살펴봤습니다\n\n1. 추석 앞두고 소고기 돼지고기 달걀값 껑충\n   출처: 한국경제 https://www.hankyung.com/article/2026092662657\n2. 가족 지인 앞세운 고수익 투자사기 주의보\n   출처: 한국경제 https://www.hankyung.com/article/202609233737i\n3. 등록임대사업자 세제혜택 단계적으로 축소\n   출처: 한국경제 https://www.hankyung.com/article/2026092334526\n4. 통신비 납부 이력으로 은행 대출 받는 시대\n   출처: 한국경제 https://www.hankyung.com/article/2026092340321\n\n#경제뉴스 #국내경제 #국내증시 #투자정보 #오늘의경제\n",
   "rendered_at": "2026-09-26T00:31:08.834702+00:00",
-  "decided_at": "2026-09-26T00:46:17.083433+00:00"
+  "decided_at": "2026-09-26T00:46:17.083433+00:00",
+  "published_at": "2026-09-26T00:48:27.146635+00:00",
+  "buffer_post_id": "6ab71650dffba3cec6e9d186"
 }
