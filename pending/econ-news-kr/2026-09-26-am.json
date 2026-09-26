@@ -1,5 +1,5 @@
 {
-  "status": "awaiting_approval",
+  "status": "approved",
   "image_urls": [
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-26-am/01_cover.png",
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-26-am/02_news.png",
@@ -9,5 +9,6 @@
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-26-am/06_outro.png"
   ],
   "caption": "오늘의 국내 경제 브리핑 | 2026-09-26\n\n노동 특례 논의가 시작된 가운데 소비 현장에서는 명절과 상권 풍경이 달라지고 있습니다.\n\n1. 메가특구 특별법, 노동 특례 사회적대화 시작\n   출처: 이투데이 https://www.etoday.co.kr/news/view/2628001\n2. 여의도 상권, 복합문화공간으로 소비층 확대\n   출처: 한국경제 https://www.hankyung.com/article/202609233846i\n3. 추석 명절 음식, 간편식으로 대체되는 흐름 뚜렷\n   출처: 한국경제 https://www.hankyung.com/article/202609170045g\n4. 추석 선물세트, 주류 비중 10년새 8위서 4위로\n   출처: 한국경제 https://www.hankyung.com/article/2026092663417\n\n#경제뉴스 #국내경제 #국내증시 #투자정보 #오늘의경제\n",
-  "rendered_at": "2026-09-26T22:08:25.292296+00:00"
+  "rendered_at": "2026-09-26T22:08:25.292296+00:00",
+  "decided_at": "2026-09-26T23:22:17.153589+00:00"
 }
