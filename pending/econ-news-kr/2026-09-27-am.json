@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "published",
   "image_urls": [
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-27-am/01_cover.png",
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-27-am/02_news.png",
@@ -10,5 +10,7 @@
   ],
   "caption": "오늘의 국내 경제 브리핑 | 2026-09-27\n\nAI반도체 패권 경쟁과 전력효율 기술, 한일 반도체 협업까지 산업 지형이 빠르게 재편되고 있습니다\n\n1. 9월 마지막주 경제부처 주간 일정\n   출처: 이투데이 https://www.etoday.co.kr/news/view/2629473\n2. 1200조 AI반도체 시장, 국산 칩 도전장\n   출처: 한국경제 https://www.hankyung.com/article/2026092769927\n3. AI 전력난 해법 찾는 한미 기후테크 스타트업\n   출처: 한국경제 https://www.hankyung.com/article/202609276925i\n4. 삼성전자 SK하이닉스, 일본 반도체와 밀착 협업\n   출처: 한국경제 https://www.hankyung.com/article/202609217576i\n\n#경제뉴스 #국내경제 #국내증시 #투자정보 #오늘의경제\n",
   "rendered_at": "2026-09-27T00:26:29.928304+00:00",
-  "decided_at": "2026-09-27T00:35:18.072498+00:00"
+  "decided_at": "2026-09-27T00:35:18.072498+00:00",
+  "published_at": "2026-09-27T00:36:27.344353+00:00",
+  "buffer_post_id": "6ab8650105811e57373d9dc6"
 }
