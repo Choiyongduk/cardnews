@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "published",
   "image_urls": [
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-28-pm/01_cover.png",
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-28-pm/02_news.png",
@@ -10,5 +10,7 @@
   ],
   "caption": "오늘의 국내 경제 브리핑 | 2026-09-28\n\n중동발 유가 충격이 국채금리와 증시를 뒤흔드는 가운데, 국내에서는 은행 영업시간 조정 같은 제도 변화도 함께 진행되고 있습니다.\n\n1. 유가, 국채금리 급등에 뉴욕증시 하락\n   출처: 한국경제 https://www.hankyung.com/article/202609280546i\n2. 중동 원유 수출량, 이란 전쟁 이후 최대 기록\n   출처: 한국경제 https://www.hankyung.com/article/202609280392i\n3. 은행 문 여는 시간, 내년 4월부터 30분 늦춰진다\n   출처: 한국경제 https://www.hankyung.com/article/2026092804041\n4. 고령화로 세계 곳곳 혈액 수급 비상\n   출처: 한국경제 https://www.hankyung.com/article/2026092801861\n\n#경제뉴스 #국내경제 #국내증시 #투자정보 #오늘의경제\n",
   "rendered_at": "2026-09-28T17:40:16.959248+00:00",
-  "decided_at": "2026-09-28T20:38:17.827170+00:00"
+  "decided_at": "2026-09-28T20:38:17.827170+00:00",
+  "published_at": "2026-09-28T20:40:38.441685+00:00",
+  "buffer_post_id": "6abad0bcc5484f94149f7bf4"
 }
