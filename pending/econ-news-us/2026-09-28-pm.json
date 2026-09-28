@@ -1,5 +1,5 @@
 {
-  "status": "awaiting_approval",
+  "status": "approved",
   "image_urls": [
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-us/2026-09-28-pm/01_cover.png",
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-us/2026-09-28-pm/02_news.png",
@@ -9,5 +9,6 @@
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-us/2026-09-28-pm/06_outro.png"
   ],
   "caption": "오늘의 미국 경제 브리핑 | 2026-09-28\n\n기준금리 연동 대출부터 취미 소비 물가, 신용카드 관리, 저축상품까지 미국 개인금융 전반이 변화하고 있습니다.\n\n1. 프라임레이트, 대출 이자의 기준점\n   출처: Yahoo Finance https://finance.yahoo.com/personal-finance/banking/article/what-is-prime-rate-155310130.html\n2. 취미 소비 늘었지만 가격도 더 올라\n   출처: Fox Business https://www.foxbusiness.com/economy/hobby-economy-funflation-why-cost-having-fun-getting-serious\n3. 신용카드 여러 장, 한꺼번에 신청은 신중히\n   출처: Yahoo Finance https://finance.yahoo.com/personal-finance/credit-cards/article/should-you-apply-for-multiple-credit-cards-at-once-180015761.html\n4. 아코디아뱅크, 낮은 최소예치금으로 높은 예금금리 제공\n   출처: Yahoo Finance https://finance.yahoo.com/personal-finance/banking/review/accordia-bank-review-190954959.html\n\n#경제뉴스 #미국경제 #미국증시 #나스닥 #오늘의경제\n",
-  "rendered_at": "2026-09-28T17:41:40.126997+00:00"
+  "rendered_at": "2026-09-28T17:41:40.126997+00:00",
+  "decided_at": "2026-09-28T20:38:18.360781+00:00"
 }
