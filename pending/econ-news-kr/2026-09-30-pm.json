@@ -1,5 +1,5 @@
 {
-  "status": "awaiting_approval",
+  "status": "approved",
   "image_urls": [
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-30-pm/01_cover.png",
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-30-pm/02_news.png",
@@ -9,5 +9,6 @@
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-30-pm/06_outro.png"
   ],
   "caption": "오늘의 국내 경제 브리핑 | 2026-09-30\n\n반도체 호황이 세수를 늘렸지만, 금융 사각지대와 노동비용 부담은 여전히 숙제로 남아있습니다.\n\n1. 올해 국세수입 478조6000억원, 사상 최대 전망\n   출처: 한국경제 https://www.hankyung.com/article/2026093057171\n2. 새마을금고, 금지된 연대보증 대출 10조원 넘어\n   출처: 한국경제 https://www.hankyung.com/article/2026093057161\n3. 상용직 고용비용 월 668만원, 4년 만에 최대 증가율\n   출처: 이투데이 https://www.etoday.co.kr/news/view/2630821\n4. 신한은행, 정기예금 금리 최대 0.25%포인트 인상\n   출처: 한국경제 https://www.hankyung.com/article/2026093055811\n\n#경제뉴스 #국내경제 #국내증시 #투자정보 #오늘의경제\n",
-  "rendered_at": "2026-09-30T09:14:18.410846+00:00"
+  "rendered_at": "2026-09-30T09:14:18.410846+00:00",
+  "decided_at": "2026-09-30T10:28:17.484416+00:00"
 }
