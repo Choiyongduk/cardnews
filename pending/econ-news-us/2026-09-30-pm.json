@@ -1,5 +1,5 @@
 {
-  "status": "awaiting_approval",
+  "status": "approved",
   "image_urls": [
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-us/2026-09-30-pm/01_cover.png",
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-us/2026-09-30-pm/02_news.png",
@@ -9,5 +9,6 @@
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-us/2026-09-30-pm/06_outro.png"
   ],
   "caption": "오늘의 미국 경제 브리핑 | 2026-09-30\n\n식품안전 리콜, 가업승계 고민, 기업 실적 이면, 자율주행 상장까지 다양한 경제 이슈가 이어졌습니다.\n\n1. 돼지고기 소시지 2300파운드 리콜, 플라스틱 혼입 우려\n   출처: Fox Business https://www.foxbusiness.com/economy/more-than-2300-pounds-breakfast-sausage-recalled-over-plastic-contamination\n2. 가족기업, 미국 경제의 큰 축이지만 승계는 난제\n   출처: Fox Business https://www.foxbusiness.com/economy/family-businesses-power-us-economy-succession-poses-major-challenge\n3. 엔니스, 매출 늘고 이익은 줄었지만 속내는 다르다\n   출처: Yahoo Finance https://finance.yahoo.com/markets/stocks/articles/ennis-ebf-grows-sales-earns-015226342.html\n4. 메이모빌리티, 스팩합병으로 자율주행 시장 상장 도전\n   출처: Yahoo Finance https://finance.yahoo.com/markets/stocks/articles/may-mobilitys-spac-merger-road-015000118.html\n\n#경제뉴스 #미국경제 #미국증시 #나스닥 #오늘의경제\n",
-  "rendered_at": "2026-09-30T09:15:41.764728+00:00"
+  "rendered_at": "2026-09-30T09:15:41.764728+00:00",
+  "decided_at": "2026-09-30T10:29:15.910592+00:00"
 }
