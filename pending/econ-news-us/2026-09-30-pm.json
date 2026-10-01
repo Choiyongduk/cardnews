@@ -1,5 +1,5 @@
 {
-  "status": "approved",
+  "status": "published",
   "image_urls": [
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-us/2026-09-30-pm/01_cover.png",
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-us/2026-09-30-pm/02_news.png",
@@ -10,5 +10,7 @@
   ],
   "caption": "오늘의 미국 경제 브리핑 | 2026-09-30\n\n성장과 고용은 예상보다 견조했지만 물가와 주택시장은 여전히 부담스러운 흐름입니다\n\n1. 2분기 미국 경제성장률 예상치 상회\n   출처: Fox Business https://www.foxbusiness.com/economy/us-economy-q2-2026-final\n2. 8월 근원물가 둔화됐지만 목표 웃돌아\n   출처: Fox Business https://www.foxbusiness.com/economy/august-2026-pce-inflation\n3. 9월 민간고용 9만명 증가, 예상 상회\n   출처: Fox Business https://www.foxbusiness.com/economy/private-sector-added-90000-jobs-september-above-expectations-adp-says\n4. 주택 재고 늘고 가격인하 확산, 매수는 부진\n   출처: Fox Business https://www.foxbusiness.com/economy/more-homes-more-price-cuts-but-buyers-still-arent-biting-mortgage-rates-climb\n\n#경제뉴스 #미국경제 #미국증시 #나스닥 #오늘의경제\n",
   "rendered_at": "2026-09-30T15:58:21.110804+00:00",
-  "decided_at": "2026-10-01T00:51:15.577872+00:00"
+  "decided_at": "2026-10-01T00:51:15.577872+00:00",
+  "published_at": "2026-10-01T00:52:38.833029+00:00",
+  "buffer_post_id": "6abdaecc22aa8e883719692e"
 }
