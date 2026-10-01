@@ -1,5 +1,5 @@
 {
-  "status": "awaiting_approval",
+  "status": "approved",
   "image_urls": [
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-30-am/01_cover.png",
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-30-am/02_news.png",
@@ -9,5 +9,6 @@
     "https://raw.githubusercontent.com/Choiyongduk/cardnews-assets/main/econ-news-kr/2026-09-30-am/06_outro.png"
   ],
   "caption": "오늘의 국내 경제 브리핑 | 2026-09-30\n\n미국 물가는 진정세를 보였지만 중동 정세와 대규모 에너지 투자가 세계 경제 변수로 떠올랐습니다.\n\n1. 미국 8월 물가 상승률, 전망치 하회\n   출처: 한국경제 https://www.hankyung.com/article/2026093059721\n2. 74조원 알래스카 LNG, 업계는 여전히 회의적\n   출처: 한국경제 https://www.hankyung.com/article/202609305877i\n3. 중동 원유 수출, 전쟁 전 대비 80%대 회복\n   출처: 한국경제 https://www.hankyung.com/article/2026093056741\n4. 한미 2000억달러 대미투자 프로젝트 최종 확정\n   출처: 이투데이 https://www.etoday.co.kr/news/view/2628668\n\n#경제뉴스 #국내경제 #국내증시 #투자정보 #오늘의경제\n",
-  "rendered_at": "2026-09-30T22:08:26.441001+00:00"
+  "rendered_at": "2026-09-30T22:08:26.441001+00:00",
+  "decided_at": "2026-10-01T00:51:15.115185+00:00"
 }
